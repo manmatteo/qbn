@@ -1,0 +1,12 @@
+(library
+ (name parsing)
+ ; (public_name qbn.parsing)
+ (modules ast parse lexer parser)
+ )
+
+(menhir
+ (modules parser)
+ (flags --explain))
+
+(ocamllex
+ (modules lexer))

@@ -1,0 +1,5 @@
+(executable
+ (name main)
+ (public_name qbn-cli)
+ (modules main)
+ (libraries qbn parsing))

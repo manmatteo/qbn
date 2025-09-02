@@ -1,0 +1,13 @@
+_build/
+.vscode/
+.direnv/
+.envrc
+*.cmt
+*.cmti
+*.cmi
+*.cmx
+*.cmxa
+*.cmo
+*.a
+*.o
+.DS_Store

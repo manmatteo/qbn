@@ -1,0 +1,4 @@
+(library
+ (name qbn)
+ (modules qbn)
+ (libraries parsing))
